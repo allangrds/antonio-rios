@@ -1,8 +1,10 @@
 {
   "devDependencies": {
-    "cz-conventional-changelog": "3.3.0"
+    "cz-conventional-changelog": "3.3.0",
+    "parcel": "2.2.1"
   },
   "scripts": {
+    "start": "parcel src/index.html",
     "commit": "cz"
   },
   "config": {
