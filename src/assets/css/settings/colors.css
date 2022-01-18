@@ -1,3 +1,10 @@
 :root {
-  --color-blue: blue;
+  --color-green: #84A59D;
+  --color-red: #F28482;
+  --color-white: #ffffff;
+
+  --color-page-background: var(--color-green);
+  --color-text: var(--color-white);
+
+  --color-page-home-circle: var(--color-red);
 }

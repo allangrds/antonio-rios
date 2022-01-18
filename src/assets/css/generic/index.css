@@ -1,0 +1,27 @@
+@import "./reset.css";
+
+body {
+  background-color: var(--color-page-background);
+  font-family: "Times New Roman", Georgia, serif;
+  padding: 20px;
+
+  @media only screen and (max-width: 1155px) {
+    font-size: 18px;
+  }
+
+  @media only screen and (min-width: 1156px) {
+    font-size: 16px;
+  }
+}
+
+h1,
+h2,
+p,
+span,
+a {
+  color: var(--color-text);
+}
+
+ul {
+  padding-left: 0;
+}
