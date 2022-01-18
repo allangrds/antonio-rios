@@ -1,0 +1,5 @@
+@import "./settings/index.css";
+
+body {
+  background-color: var(--color-blue);
+}
