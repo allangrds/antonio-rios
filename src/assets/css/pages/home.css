@@ -1,0 +1,129 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @media only screen and (min-width: 1156px) {
+    height: 100%;
+  }
+
+  > .container {
+    width: 100%;
+    max-width: 1280px;
+    display: grid;
+
+    @media only screen and (max-width: 1155px) {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+    @media only screen and (min-width: 1156px) {
+      padding-top: 100px;
+      padding-bottom: 100px;
+      grid-template-columns: 1fr 200px;
+    }
+  }
+}
+
+.artist-presentation {
+  display: flex;
+  justify-content: center;
+
+  @media only screen and (min-width: 1156px) {
+    align-items: center;
+  }
+
+  > .container {
+    position: relative;
+  }
+
+  .photo {
+    position: relative;
+    z-index: 1;
+
+    @media only screen and (max-width: 1155px) {
+      width: 320px;
+      height: 320px;
+      max-width: 320px;
+      max-height: 320px;
+      border-radius: 380px;
+    }
+
+    @media only screen and (min-width: 1156px) {
+      width: 380px;
+      height: 380px;
+      border-radius: 380px;
+    }
+  }
+
+  .circle {
+    width: 186px;
+    height: 186px;
+    border-radius: 186px;
+    border: 7px solid var(--color-page-home-circle);
+    position: absolute;
+    left: -80px;
+    bottom: 50px;
+    z-index: 0;
+  }
+
+  .signature {
+    position: absolute;
+    z-index: 2;
+    max-width: 295px;
+    width: 100%;
+
+    @media only screen and (max-width: 1155px) {
+      bottom: -60px;
+    }
+
+    @media only screen and (min-width: 1156px) {
+      top: 50px;
+      left: -200px;
+    }
+  }
+
+  .artist-informations {
+    position: absolute;
+    z-index: 2;
+
+    @media only screen and (max-width: 1155px) {
+      bottom: -130px;
+      left: 20px;
+    }
+
+    @media only screen and (min-width: 1156px) {
+      bottom: 0;
+      left: -270px;
+    }
+  }
+
+  .artist-name {
+    font-weight: 400;
+    font-size: 2rem;
+
+    @media only screen and (max-width: 1155px) {
+      font-size: 1.6rem;
+      margin-bottom: 0;
+    }
+
+    @media only screen and (min-width: 1156px) {
+      font-size: 2rem;
+    }
+  }
+
+  .artist-birthdate {
+    display: block;
+
+    text-align: right;
+
+    @media only screen and (max-width: 1155px) {
+      font-size: 1.2rem;
+    }
+
+    @media only screen and (min-width: 1156px) {
+      font-size: 1.4rem;
+    }
+  }
+}

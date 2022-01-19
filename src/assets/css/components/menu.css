@@ -1,0 +1,27 @@
+.menu {
+  @media only screen and (max-width: 1155px) {
+    grid-row: 1;
+    margin-bottom: 3rem;
+  }
+
+  @media only screen and (min-width: 1156px) {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.menu-list {
+  list-style: none;
+}
+
+.menu-item {
+  @media only screen and (max-width: 1155px) {
+    text-align: center;
+  }
+}
+
+.menu-link {
+  font-size: 1.5rem;
+  text-decoration: none;
+  line-height: 3rem;
+}

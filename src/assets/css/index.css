@@ -1,5 +1,4 @@
 @import "./settings/index.css";
-
-body {
-  background-color: var(--color-blue);
-}
+@import "./generic/index.css";
+@import "./components/index.css";
+@import "./pages/index.css";
