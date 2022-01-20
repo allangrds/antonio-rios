@@ -11,6 +11,8 @@
   }
 
   .photo {
+    background-image: url('../../img/antonio-rios-jovem.jpeg');
+    background-size: cover;
     position: relative;
     z-index: 1;
 
