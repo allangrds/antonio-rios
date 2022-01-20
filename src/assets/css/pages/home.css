@@ -1,31 +1,3 @@
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  @media only screen and (min-width: 1156px) {
-    height: 100%;
-  }
-
-  > .container {
-    width: 100%;
-    max-width: 1280px;
-    display: grid;
-
-    @media only screen and (max-width: 1155px) {
-      padding-top: 20px;
-      padding-bottom: 20px;
-    }
-
-    @media only screen and (min-width: 1156px) {
-      padding-top: 100px;
-      padding-bottom: 100px;
-      grid-template-columns: 1fr 200px;
-    }
-  }
-}
-
 .artist-presentation {
   display: flex;
   justify-content: center;
