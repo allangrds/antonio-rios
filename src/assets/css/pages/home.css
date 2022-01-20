@@ -45,16 +45,18 @@
   .signature {
     position: absolute;
     z-index: 2;
-    max-width: 295px;
     width: 100%;
 
     @media only screen and (max-width: 1155px) {
-      bottom: -60px;
+      bottom: -70px;
+      right: 60px;
+      max-width: 220px;
     }
 
     @media only screen and (min-width: 1156px) {
       top: 50px;
       left: -200px;
+      max-width: 295px;
     }
   }
 
@@ -63,7 +65,7 @@
     z-index: 2;
 
     @media only screen and (max-width: 1155px) {
-      bottom: -130px;
+      bottom: -140px;
       left: 20px;
     }
 
