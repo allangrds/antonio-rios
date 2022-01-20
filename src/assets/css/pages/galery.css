@@ -1,0 +1,27 @@
+.galery {
+  @media only screen and (max-width: 1155px) {
+    padding-right: 1rem;
+  }
+
+  @media only screen and (min-width: 1156px) {
+    padding-right: 3rem;
+  }
+
+  > .title {
+    text-align: right;
+    font-size: 2.5rem;
+    font-weight: normal;
+  }
+
+  > .galery-container {
+    display: grid;
+
+    @media only screen and (min-width: 769px) and (max-width: 1156px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media only screen and (min-width: 1156px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
