@@ -1,0 +1,50 @@
+.biography {
+
+  @media only screen and (max-width: 1155px) {
+    padding-right: 1rem;
+  }
+
+  @media only screen and (min-width: 1156px) {
+    padding-right: 3rem;
+  }
+
+  .title {
+    text-align: right;
+    font-size: 2.5rem;
+    font-weight: normal;
+  }
+
+  .text-container {
+    position: relative;
+    z-index: 2;
+    padding-right: 7.7rem;
+  }
+
+  .text {
+    text-align: right;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .photo {
+    position: absolute;
+    z-index: 1;
+    max-width: 200px;
+    max-height: 200px;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    right: 0;
+  }
+
+  .circle {
+    width: 140px;
+    height: 140px;
+    border-radius: 140px;
+    border: 5px solid var(--color-page-home-circle);
+    position: absolute;
+    z-index: 0;
+    top: 60px;
+    right: 90px;
+  }
+}
