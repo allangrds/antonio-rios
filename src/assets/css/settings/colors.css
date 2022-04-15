@@ -6,6 +6,7 @@
 
   --color-page-background: var(--color-green);
   --color-text: var(--color-white);
+  --border-color-hr: var(--color-white);
 
   --color-page-home-circle: var(--color-red);
 }
